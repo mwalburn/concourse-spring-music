@@ -89,7 +89,7 @@ jobs:
     - put: deploy-production-app
       params:
         manifest: git-repo/manifest-prod.yml
-        current_app_name: mw-spring-music
+        current_app_name: spring-music
         path: final-dir/spring-music*.war
 
   - name: major
