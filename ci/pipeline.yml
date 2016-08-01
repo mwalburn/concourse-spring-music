@@ -82,7 +82,7 @@ jobs:
     - task: prepare-final
       file: git-repo/ci/tasks/prepare-final.yml
       params:
-        base_name: mw-spring-music
+        base_name: spring-music
     - put: production-release
       params:
         file: final-dir/spring-music*.war
