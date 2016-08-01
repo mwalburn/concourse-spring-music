@@ -1,6 +1,6 @@
 ---
 applications:
-- name: spring-music
+- name: mw-spring-music
   memory: 512M
   instances: 1
-  host: spring-music
+  host: mw-spring-music

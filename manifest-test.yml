@@ -1,6 +1,7 @@
 ---
 applications:
-- name: spring-music-test
+- name: mw-spring-music-test
   memory: 512M
   instances: 1
-  host: spring-music-test
+  host: mw-spring-music-test
+
